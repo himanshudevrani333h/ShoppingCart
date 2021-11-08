@@ -1,0 +1,51 @@
+.container {
+  height: 88vh;
+  width: 100vw;
+  display: flex;
+  background-color: #ecf0f1;
+
+}
+
+.categories {
+  height: 70%;
+  width: 25%;
+  background-color: #ecf0f1;
+}
+
+.products {
+  height: 100%;
+  width: 75%;
+}
+
+.categ {
+  height: 10%;
+  width: 82%;
+  font-size: 25px;
+  margin: auto;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #747d8c;
+  color: white;
+}
+
+.txt {
+  height: 10%;
+  width: 100%;
+  font-size: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #C4E538;
+  color: white;
+}
+.product-container {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  overflow: auto;
+  background-color: #ecf0f1;
+}
